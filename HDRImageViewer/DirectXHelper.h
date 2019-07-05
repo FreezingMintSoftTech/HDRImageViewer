@@ -49,6 +49,10 @@ namespace DX
             apiLevel = 8;
             break;
 
+        case Win1903:
+            apiLevel = 8;
+            break;
+
         default:
             throw ref new Platform::InvalidArgumentException();
             break;
